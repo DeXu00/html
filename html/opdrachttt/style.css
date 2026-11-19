@@ -1,0 +1,10 @@
+label{
+    font-weight: bold;
+    font-style: italic;
+   
+}
+
+input{
+    border: 2px gray;
+    padding: 12px;
+}

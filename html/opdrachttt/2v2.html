@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Toernooi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="aanmelden.html">
+
+    </form>
+    <fieldset>
+    <legend> Over jou </legend>
+    <label  for="tag">Gamertag</label> 
+    <input type= "text" id="tag"  name="tag" minlength="3" maxlength="16" placeholder="nova_17">
+    <label for="email">Email</label>
+    <input type= "email" id="email"  name="email" placeholder="jij@mail.nl">
+    <label  for ="password">Wachtwoord</label>
+    <input type= "password" id="password"  name="password" required>
+     <label for ="number">Leeftijd</label>
+    <input type= "number" id="number"  min="12" max="99">
+     <label for ="date">Geboortedatum</label>
+    <input type= "date" id="date"  name="date">
+
+
+    </fieldset>
+
+
+    <fieldset> 
+<legend>Toernooi</legend>
+
+    <input type="radio" checked id="pc"  name="platform" value="pc">
+    <label for="pc">PC</label>
+     <input type="radio" checked id="Console"  name="platform" value="Console">
+    <label for="pc">Console</label>
+     <input type="radio" checked id="Mobiel"  name="platform" value="Mobiel">
+    <label for="pc">Mobiel</label>
+
+    <input type="checkbox" id="za"  name="dagen" value="za">
+    <label for="za">zaterdag</label>
+     <input type="checkbox" id="zo"  name="dagen" value="zo">
+    <label for="za">zondag</label>
+
+    <label for="land">Land</label>
+    <select id="land" name="land">
+    <option>Nederland</option>
+    <option>Belgie</option>
+</select>
+
+
+<textarea id="opm" name="opm" rows="3" ></textarea>
+<label for="opm">Opmerking</label>
+</fieldset>
+<button>Meld je aan</button>
+</body>
+</html>
