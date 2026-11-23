@@ -1,10 +1,80 @@
 label{
     font-weight: bold;
-    font-style: italic;
+ 
    
 }
 
+
+
 input{
-    border: 2px gray;
-    padding: 12px;
+    border: 2px solid  grey;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 12px;
+ background-color:yellow;
+}
+
+
+
+.verplicht{
+    border: 3px;
+}
+
+fieldset label{
+ font-style: italic;
+}
+
+button , select , legend{
+    background-color: bisque;
+}
+
+button:hover{
+    background-color: burlywood;
+}
+
+input:focus{
+    outline: none;
+  border: 3px solid orange;
+}
+
+
+.verplicht:invalid {
+    border: 3px solid red;
+}
+
+
+
+#email:valid{
+    background-color: lightblue;
+}
+
+fieldset{
+    margin-bottom: 12px;
+}
+
+
+
+input:checked {
+    accent-color: orange;
+}
+
+form,fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.keuzes{
+display: flex;
+gap: 16px;
+}
+
+
+.acties{
+    display: flex;
+    justify-content: flex-end;
+}
+
+form{
+    max-width: 460px;
 }
