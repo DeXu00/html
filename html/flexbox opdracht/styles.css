@@ -1,0 +1,19 @@
+.mooi{
+    background-color: lightgreen;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+h1{
+   
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    
+}
